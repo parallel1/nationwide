@@ -1,0 +1,416 @@
+/* Text font */
+@font-face {
+    font-family: monospace;
+}
+header {
+  width: 100%;
+  padding: 80px;
+  background-image: url("../image/1-millenials.png");
+  height: auto;
+  margin-bottom: 20px;
+}
+img {
+	width: 100%;
+	height: auto;
+}
+* {
+  box-sizing: border-box;
+}
+h1 {
+	text-align: center;
+	font-family: monospace;
+	color: #ffffff;
+	font-size: 30px;
+	margin-top: 130px;
+	margin-bottom: 70px;
+}
+
+h2 {
+	text-align: center;
+	font-family: monospace;
+	color: #ffffff;
+	font-size: 25px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+#heading2 {
+	width: 100%;
+	height: auto;
+	background-color: #66a3ff;
+	padding: 5px;
+	border-radius: 15px;
+}
+h3 {
+	text-align: center;
+	font-family: monospace;
+	color: #66a3ff;
+	font-size: 22px;
+}
+	
+h4 {
+	width: 100%;
+	font-family: monospace;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+}
+p {
+	font-family: monospace;
+	font-size: 18px;
+}
+#p1 {
+    font-family: monospace;
+	font-size: 20px;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+/* sections and footer*/
+
+section {
+	width: 100%;
+	height: auto;
+}
+
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+  background-color: #007acc;
+  padding: 10px;
+  text-align: center;
+  color: #ffffff;
+  font-family: monospace;
+  font-size: 18px;
+}
+
+/* Book now button */
+.button-book {
+  background-color: #66a3ff;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  font-family: monospace;
+  text-decoration: none;
+  font-size: 20px;
+  border-radius: 15px;
+}
+
+/* login register buttos */
+.button-logreg {
+  background-color: #66a3ff;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  font-family: monospace;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 15px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Text over bottom images */
+.text-block {
+  background-color: #007acc;
+  color: white;
+  padding: 3px;
+}
+
+#booknow {
+	margin-bottom: 50px;
+}
+/* Navbar */
+.navbar {
+    margin-bottom: 0;
+    background-color: #007acc;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+    font-family: monospace;
+	overflow: hidden;
+  }
+  .navbar li a, .navbar .navbar-brand .dropbtn {
+    color: #fff !important;
+	font-family: monospace;
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+    color: black !important;
+    background-color: #fff !important;
+  }
+  .navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+  }
+  #myNavbar {
+	  font-family: monospace;
+	  font-size: 20px;
+  }
+  .navbar-brand {
+	  font-size: 28px;
+	  width: 250px;
+	  height: 60px;
+  }
+/* end of Navbar */
+
+/* start of Navbar dropdown */
+
+.dropdown {
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 20px; 
+  border: none;
+  outline: none;
+  color: white;
+  background-color: inherit;
+  letter-spacing: 4px;
+  padding: 11px;
+  font-family: inherit; 
+  margin: 0; 
+}
+
+.dropdown-content {
+  display: none;
+  min-width: 150px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: left;
+  width: 150px;
+  padding: 2px 2px 2px 4px;
+  background-color: #007acc;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+  width: 150px;
+}
+ul {
+	list-style-type: none;
+	margin-left: 0;
+}
+
+/* end of Navbar dropdown */
+
+  /* 6 image panels */
+  .panel-heading {
+	width: 100%;
+    color: #fff !important;
+    background-color: #007acc !important;
+    padding: 25px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+  .panel {
+	width: 100%;
+    border: 1px solid #007acc; 
+    border-radius:0 !important;
+    transition: box-shadow 0.5s;
+  }
+  .panel:hover {
+    box-shadow: 5px 0px 40px rgba(0,0,0,.2);
+  }
+/* Popup container */
+.popup {
+  position: relative;
+  display: inline-block;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* The actual popup */
+.popup .popuptext {
+  visibility: hidden;
+  width: 80%;
+  background-color: #66a3ff;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  font-family: monospace;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 55%;
+  left: 25%;
+  margin-left: -80px;
+}
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+/* Hide and show popup */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* Fade in popup */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+.form-group {
+  width: 70%;
+}
+.loginBox {
+  float: right;
+}
+.loginHeader {
+  color: #66a3ff;
+}
+.container-login {
+  width: 28%;
+  margin-left: 41%;
+}
+
+/* Mobile responsive start */ 
+@media (max-width: 600px) {
+ .column {
+	 width: 100%;
+	 height: auto;
+ }
+#p1 {
+	 width: 90%;
+	 height: auto;
+	 font-size: 12px;
+	 margin-left: 5%;
+	 margin-right: 5%;
+ }
+ h1 {
+ 
+	width: 100%;
+	height: auto;
+	text-align: center;
+	font-family: monospace;
+	color: #ffffff;
+	font-size: 16px;
+	margin-top: 40%;
+}
+
+h2 {
+	width: 100%;
+	height: auto;
+	text-align: center;
+	font-family: monospace;
+	color: #ffffff;
+	font-size: 10px;
+	margin: 10px;	
+}
+h3 {
+	text-align: center;
+	font-family: monospace;
+	color: #66a3ff;
+	font-size: 14px;
+}
+ .popup .popuptext {
+  visibility: hidden;
+  width: 80%;
+  background-color: #66a3ff;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  font-family: monospace;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 55%;
+  left: 50%;
+  margin-left: -80px;
+}
+header {
+  width: 100%;
+  background-image: url("../image/2-millenials.png");
+  padding: 5px;
+  height: auto;
+  margin-bottom: 5px;
+}
+.button-book {
+	width: 60%;
+	height: auto;
+	font-family: 12px;
+	padding: 5px 12px;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+section {
+	width: 100%;
+	height: auto;
+}
+
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.form-group {
+  width: 90%;
+}
+.loginBox {
+  float: right;
+}
+.loginHeader {
+  color: #66a3ff;
+}
+.container-login {
+  width: 90%;
+  margin-left: 5%;
+}
+.button-logreg {
+  background-color: #66a3ff;
+  border: none;
+  color: white;
+  padding: 3px 5px;
+  text-align: center;
+  font-family: monospace;
+  text-decoration: none;
+  font-size: 12px;
+  border-radius: 15px;
+}
+
+}
+/* Mobile responsive end */
+#content_top
+{
+  position:relative;
+  padding-top:150px;
+ 
+}
